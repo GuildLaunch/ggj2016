@@ -651,6 +651,7 @@
     <tile bgName="bg_dungeon1_64" x="1408" y="1152" w="64" h="64" xo="192" yo="896" id="10000509" name="inst_E91DF076" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon1_64" x="1408" y="1216" w="64" h="64" xo="192" yo="896" id="10000510" name="inst_84D7C37F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon1_64" x="1408" y="1280" w="64" h="64" xo="192" yo="896" id="10000511" name="inst_F937947B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon1_64" x="1152" y="576" w="64" h="64" xo="896" yo="256" id="10000512" name="inst_17DAE70C" depth="999999" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
