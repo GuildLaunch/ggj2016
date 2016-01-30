@@ -10,7 +10,9 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>ItemStatus1 = false;
+ItemStatus2 = false;
+ItemStatus3 = false;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -197,6 +199,9 @@
     <instance objName="wallCollision" x="1024" y="1536" name="inst_DA8C5C0E" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="1472" y="352" name="inst_CBEF6E3B" locked="0" code="" scaleX="1" scaleY="38" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="1024" y="352" name="inst_F4185E8B" locked="0" code="" scaleX="14" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawn1" x="384" y="320" name="inst_257918AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawn2" x="544" y="960" name="inst_EAE08B88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objSpawn3" x="1184" y="1120" name="inst_05C143A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_dungeon1_64" x="0" y="0" w="64" h="64" xo="0" yo="64" id="10000010" name="inst_2D44AAB0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
