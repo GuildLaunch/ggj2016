@@ -125,7 +125,6 @@
     <background>background\bg_shadows_128</background>
   </backgrounds>
   <paths name="paths">
-    <path>paths\pathSecond</path>
     <path>paths\pathFirst</path>
   </paths>
   <objects name="objects">
@@ -138,18 +137,14 @@
     <object>objects\objEnemy5</object>
     <object>objects\objEnemy6</object>
     <object>objects\objSpawn1</object>
-    <object>objects\objSpawn2</object>
-    <object>objects\objSpawn3</object>
-    <object>objects\objBracelet</object>
-    <object>objects\objTorch</object>
-    <object>objects\objMask</object>
-    <object>objects\objRing</object>
-    <object>objects\objAnkh</object>
+    <object>objects\objWeapon</object>
+    <object>objects\startObject</object>
+    <object>objects\uiObject</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\welcome</room>
     <room>rooms\start</room>
     <room>rooms\room2</room>
-    <room>rooms\room3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
