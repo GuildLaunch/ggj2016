@@ -91,6 +91,9 @@
     <instance objName="wallCollision" x="896" y="1280" name="inst_5233B7E6" locked="0" code="" scaleX="1" scaleY="-5" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="896" y="1088" name="inst_A4AA7DBA" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="928" y="992" name="inst_F7A67C86" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoom3Enemy1" x="1088" y="256" name="inst_BBCD2A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoom3Enemy2" x="1856" y="352" name="inst_20ED09DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objRoom3Enemy3" x="1664" y="1024" name="inst_4D170E63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_dungeon2_64" x="128" y="64" w="64" h="64" xo="0" yo="64" id="10001221" name="inst_48FA9C3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -627,6 +630,7 @@
     <tile bgName="bg_dungeon2_64" x="1152" y="320" w="64" h="64" xo="128" yo="0" id="10001871" name="inst_51AE0A16" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1216" y="320" w="64" h="64" xo="128" yo="0" id="10001872" name="inst_0A916DA1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1280" y="320" w="64" h="64" xo="128" yo="0" id="10001873" name="inst_3DC59A59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon1_64" x="576" y="1024" w="64" h="64" xo="896" yo="256" id="10002028" name="inst_6422C626" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

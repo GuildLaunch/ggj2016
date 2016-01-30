@@ -155,6 +155,9 @@
     <object>objects\objWeapon</object>
     <object>objects\startObject</object>
     <object>objects\uiObject</object>
+    <object>objects\objRoom3Enemy1</object>
+    <object>objects\objRoom3Enemy2</object>
+    <object>objects\objRoom3Enemy3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\welcome</room>
