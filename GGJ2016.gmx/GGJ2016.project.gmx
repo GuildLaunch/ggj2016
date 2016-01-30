@@ -127,6 +127,9 @@
   <paths name="paths">
     <path>paths\pathFirst</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objPlayer</object>
     <object>objects\wallCollision</object>
