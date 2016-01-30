@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_colour(c_yellow);
+            <string>draw_set_colour(make_color_rgb(128, 128, 255));
 draw_set_alpha(.5);
 draw_rectangle(0, view_hport[0]-50, view_wport[0],view_hport[0], false);
 draw_set_colour(c_black);

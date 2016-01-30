@@ -48,36 +48,68 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speedup = 10
+            <string>///Movement
+speedup = 10
+    
+//Xbox left stick movement
+hspeed = gamepad_axis_value (0, gp_axislh) * speedup; // x-axis movement, speed up is a number that controls how fast the player moves
+vspeed = gamepad_axis_value (0, gp_axislv) * speedup; // y-axi movement, speed up is a number that controls how fast the player moves, the - in front of gamepad_axis_value inverted the direction
 
-switch (floor(((direction) +45)/90) mod 4 ) {
-case 0: sprite_index = sprKnight_Side_Walk; break;
-case 1: sprite_index = sprKnight_Up_Walk; break;
-case 2: sprite_index = sprKnight_Down_Walk; break;
-case 3: sprite_index = sprKnight_Down_Walk; break;
+if(hspeed &lt; 1 &amp;&amp; vspeed &lt; 1){
+    sprite_index = sprKnight_Down_Idle;
 }
 
-//Xbox left stick movement
+switch (floor(((direction) +45)/90) mod 4 ) {
+    case 0: sprite_index = sprKnight_Side_Walk; image_xscale = 2; break;
+    case 1: sprite_index = sprKnight_Up_Walk; break;
+    case 2: sprite_index = sprKnight_Side_Walk; image_xscale = -2; break;
+    case 3: sprite_index = sprKnight_Down_Walk; break;
+}
 
-hspeed = gamepad_axis_value (0, gp_axislh) * speedup // x-axis movement, speed up is a number that controls how fast the player moves
-vspeed = gamepad_axis_value (0, gp_axislv) * speedup // y-axi movement, speed up is a number that controls how fast the player moves, the - in front of gamepad_axis_value inverted the direction
 // &amp;&amp; (position_empty(object.x, object.y))
 //this makes sure the player stays still when the stick is not being pressed due to the stick being slightly off center
 if (hspeed &gt; 2 || hspeed &lt; -2) &amp;&amp; (place_free(x+(sign(hspeed)*5),y)) {
-    hspeed = hspeed
+    hspeed = hspeed;
 }else{
-    hspeed = 0
+    hspeed = 0;
 }
 if (vspeed &gt; 2 || vspeed &lt; -2) &amp;&amp; (place_free(x,y+(sign(vspeed)*5))) {
-    vspeed = vspeed
+    vspeed = vspeed;
 }else{
-    vspeed = 0
+    vspeed = 0;
 }
 
 //Xbox right stick
 
-//aims player in right direction
-image_angle = point_direction(0, 0, gamepad_axis_value(0, gp_axisrh)+180, -gamepad_axis_value(0, gp_axisrv))
+if gamepad_axis_value(0, gp_axisrv) {
+    //if (audio_is_playing(swordmiss) == false){
+    //    sound_play(swordmiss);
+    //}
+    sprite_index = sprKnight_Down_Attack_3;
+}
+
+if gamepad_axis_value(0, gp_axisrh) {
+    //if (audio_is_playing(swordmiss) == false){
+    //    sound_play(swordmiss);
+    //}
+    sprite_index = sprKnight_Side_Attack_3;
+    image_xscale = 2
+}
+
+if -gamepad_axis_value(0, gp_axisrv) {
+    //if (audio_is_playing(swordmiss) == false){
+    //    sound_play(swordmiss);
+    //}
+    sprite_index = sprKnight_Up_Attack_3;
+}
+
+if -gamepad_axis_value(0, gp_axisrh) {
+    //if (audio_is_playing(swordmiss) == false){
+    //    sound_play(swordmiss);
+    //}
+    sprite_index = sprKnight_Side_Attack_3;
+    image_xscale = -2
+}
 </string>
           </argument>
         </arguments>
