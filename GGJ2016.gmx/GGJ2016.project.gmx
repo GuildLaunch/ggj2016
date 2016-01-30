@@ -145,6 +145,9 @@
     <object>objects\objMask</object>
     <object>objects\objRing</object>
     <object>objects\objAnkh</object>
+    <object>objects\objRoom2Enemy1</object>
+    <object>objects\objRoom2Enemy2</object>
+    <object>objects\objRoom2Enemy3</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start</room>
