@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speedup = 10
+            <string>///Movement
+speedup = 10
+Attacking = false;
     
 //Xbox left stick movement
 hspeed = gamepad_axis_value (0, gp_axislh) * speedup; // x-axis movement, speed up is a number that controls how fast the player moves
@@ -58,19 +60,31 @@ if (vspeed &gt; 2 || vspeed &lt; -2) &amp;&amp; (place_free(x,y+(sign(vspeed)*5)
 //Xbox right stick
 
 if gamepad_axis_value(0, gp_axisrv) {
+    if (audio_is_playing(swordmiss) == false){
+        sound_play(swordmiss);
+    }
     sprite_index = sprKnight_Down_Attack_3;
 }
 
 if gamepad_axis_value(0, gp_axisrh) {
+    if (audio_is_playing(swordmiss) == false){
+        sound_play(swordmiss);
+    }
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = 2
 }
 
 if -gamepad_axis_value(0, gp_axisrv) {
+    if (audio_is_playing(swordmiss) == false){
+        sound_play(swordmiss);
+    }
     sprite_index = sprKnight_Up_Attack_3;
 }
 
 if -gamepad_axis_value(0, gp_axisrh) {
+    if (audio_is_playing(swordmiss) == false){
+        sound_play(swordmiss);
+    }
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = -2
 }
