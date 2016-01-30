@@ -90,7 +90,8 @@ if gamepad_axis_value(0, gp_axisrv) {
     //    sound_play(swordmiss);
     //}
     sprite_index = sprKnight_Down_Attack_3;
-    instance_create(x, y+weapon_offset+weapon_offset, objWeapon);
+    inst = instance_create(x, y+weapon_offset+10, objWeapon);
+    inst.image_xscale = 2;
 }
 
 if gamepad_axis_value(0, gp_axisrh) {
@@ -99,7 +100,8 @@ if gamepad_axis_value(0, gp_axisrh) {
     //}
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = 2
-    instance_create(x+weapon_offset, y+10, objWeapon);
+    inst = instance_create(x+weapon_offset+5, y+15, objWeapon);
+    inst.image_yscale = 2.5;
 }
 
 if -gamepad_axis_value(0, gp_axisrv) {
@@ -107,7 +109,8 @@ if -gamepad_axis_value(0, gp_axisrv) {
     //    sound_play(swordmiss);
     //}
     sprite_index = sprKnight_Up_Attack_3;
-    instance_create(x, y-weapon_offset, objWeapon);
+    inst = instance_create(x, y-weapon_offset, objWeapon);
+    inst.image_xscale = 2;
 }
 
 if -gamepad_axis_value(0, gp_axisrh) {
@@ -116,7 +119,8 @@ if -gamepad_axis_value(0, gp_axisrh) {
     //}
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = -2
-    instance_create(x-weapon_offset, y+10, objWeapon);
+    inst = instance_create(x-weapon_offset-5, y+15, objWeapon);
+    inst.image_yscale = 2.5;
 }
 
 </string>
