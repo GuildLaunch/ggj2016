@@ -137,8 +137,12 @@
     <object>objects\objEnemy5</object>
     <object>objects\objEnemy6</object>
     <object>objects\objSpawn1</object>
+    <object>objects\objWeapon</object>
+    <object>objects\startObject</object>
+    <object>objects\uiObject</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\welcome</room>
     <room>rooms\start</room>
     <room>rooms\room2</room>
   </rooms>
