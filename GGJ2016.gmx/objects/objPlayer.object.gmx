@@ -26,6 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>speedup = 10
+
+switch (floor(((direction) +45)/90) mod 4 ) {
+case 0: sprite_index = sprKnight_Side_Walk; break;
+case 1: sprite_index = sprKnight_Up_Walk; break;
+case 2: sprite_index = sprKnight_Down_Walk; break;
+case 3: sprite_index = sprKnight_Down_Walk; break;
+}
+
 //Xbox left stick movement
 
 hspeed = gamepad_axis_value (0, gp_axislh) * speedup // x-axis movement, speed up is a number that controls how fast the player moves
