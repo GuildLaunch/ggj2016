@@ -126,7 +126,12 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\pathFirst</path>
+    <path>paths\pathSecond</path>
+    <path>paths\pathThird</path>
   </paths>
+  <scripts name="scripts">
+    <script>scripts\script0.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\objPlayer</object>
     <object>objects\wallCollision</object>
@@ -137,6 +142,16 @@
     <object>objects\objEnemy5</object>
     <object>objects\objEnemy6</object>
     <object>objects\objSpawn1</object>
+    <object>objects\objSpawn2</object>
+    <object>objects\objSpawn3</object>
+    <object>objects\objBracelet</object>
+    <object>objects\objTorch</object>
+    <object>objects\objMask</object>
+    <object>objects\objRing</object>
+    <object>objects\objAnkh</object>
+    <object>objects\objRoom2Enemy1</object>
+    <object>objects\objRoom2Enemy2</object>
+    <object>objects\objRoom2Enemy3</object>
     <object>objects\objWeapon</object>
     <object>objects\startObject</object>
     <object>objects\uiObject</object>

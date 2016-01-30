@@ -79,13 +79,18 @@ if (vspeed &gt; 2 || vspeed &lt; -2) &amp;&amp; (place_free(x,y+(sign(vspeed)*5)
     vspeed = 0;
 }
 
-//Xbox right stick
+/// Attack
 
+//Xbox right stick
+draw_set_colour(c_black);
+draw_set_alpha(1);
+weapon_offset = 20;
 if gamepad_axis_value(0, gp_axisrv) {
     //if (audio_is_playing(swordmiss) == false){
     //    sound_play(swordmiss);
     //}
     sprite_index = sprKnight_Down_Attack_3;
+    instance_create(x, y+weapon_offset+weapon_offset, objWeapon);
 }
 
 if gamepad_axis_value(0, gp_axisrh) {
@@ -94,6 +99,7 @@ if gamepad_axis_value(0, gp_axisrh) {
     //}
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = 2
+    instance_create(x+weapon_offset, y+10, objWeapon);
 }
 
 if -gamepad_axis_value(0, gp_axisrv) {
@@ -101,6 +107,7 @@ if -gamepad_axis_value(0, gp_axisrv) {
     //    sound_play(swordmiss);
     //}
     sprite_index = sprKnight_Up_Attack_3;
+    instance_create(x, y-weapon_offset, objWeapon);
 }
 
 if -gamepad_axis_value(0, gp_axisrh) {
@@ -109,7 +116,9 @@ if -gamepad_axis_value(0, gp_axisrh) {
     //}
     sprite_index = sprKnight_Side_Attack_3;
     image_xscale = -2
+    instance_create(x-weapon_offset, y+10, objWeapon);
 }
+
 </string>
           </argument>
         </arguments>
