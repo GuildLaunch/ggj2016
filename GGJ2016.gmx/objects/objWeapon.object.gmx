@@ -2,7 +2,7 @@
 <object>
   <spriteName>spr_sword</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>step_count = step_count + 1;
-if (step_count &gt; 90){
+if (step_count &gt; 30){
  instance_destroy();
 }
 </string>
