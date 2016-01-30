@@ -103,6 +103,8 @@
       <sprite>sprites\spr_coinBag</sprite>
       <sprite>sprites\spr_arrow</sprite>
     </sprites>
+    <sprite>sprites\sprite86</sprite>
+    <sprite>sprites\sprite87</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
