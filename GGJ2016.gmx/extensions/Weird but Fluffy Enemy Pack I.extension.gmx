@@ -3,7 +3,7 @@
   <name>Weird but Fluffy Enemy Pack I</name>
   <version>1.0.0</version>
   <packageID>com.incyre.fluffyenemypack1</packageID>
-  <ProductID>F79C97955FD1AF4686EB4EF4EF90F0DB</ProductID>
+  <ProductID>5AF0F8103993EFE8481CAA4D627E8893</ProductID>
   <date>09.12.2014</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -17,7 +17,9 @@
   <androidsourcedir></androidsourcedir>
   <macsourcedir></macsourcedir>
   <maclinkerflags></maclinkerflags>
+  <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
+  <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
   <androidPermissions/>

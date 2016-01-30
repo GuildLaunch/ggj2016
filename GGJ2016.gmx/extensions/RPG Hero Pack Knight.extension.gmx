@@ -3,7 +3,7 @@
   <name>RPG Hero Pack Knight</name>
   <version>1.1.1</version>
   <packageID>com.littlepixelstudios.rpgheropackknight</packageID>
-  <author></author>
+  <ProductID>6D21C6426FD6B09AD2D5AE1FC50D791B</ProductID>
   <date>04/07/14</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -17,7 +17,9 @@
   <androidsourcedir></androidsourcedir>
   <macsourcedir></macsourcedir>
   <maclinkerflags></maclinkerflags>
+  <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
+  <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
   <androidPermissions/>

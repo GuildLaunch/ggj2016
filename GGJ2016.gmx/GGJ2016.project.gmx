@@ -3,17 +3,122 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
-  <NewExtensions/>
+  <NewExtensions>
+    <extension index="0">extensions\Hand Painted Dungeon Tileset</extension>
+    <extension index="1">extensions\RPG Hero Pack Knight</extension>
+    <extension index="2">extensions\Weird but Fluffy Enemy Pack I</extension>
+    <extension index="3">extensions\Pick Up Items</extension>
+  </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\spr_fire_64</sprite>
+    <sprite>sprites\spr_fire_128</sprite>
+    <sprites name="Heroes">
+      <sprites name="Knight">
+        <sprite>sprites\sprKnight_Down_Idle</sprite>
+        <sprite>sprites\sprKnight_Down_Walk</sprite>
+        <sprite>sprites\sprKnight_Side_Idle</sprite>
+        <sprite>sprites\sprKnight_Side_Walk</sprite>
+        <sprite>sprites\sprKnight_Up_Idle</sprite>
+        <sprite>sprites\sprKnight_Up_Walk</sprite>
+        <sprite>sprites\sprKnight_Side_Attack_1</sprite>
+        <sprite>sprites\sprKnight_Side_Attack_2</sprite>
+        <sprite>sprites\sprKnight_Side_Attack_3</sprite>
+        <sprite>sprites\sprKnight_Side_Attack_4</sprite>
+        <sprite>sprites\sprKnight_Side_Attack_5</sprite>
+        <sprite>sprites\sprKnight_Down_Attack_1</sprite>
+        <sprite>sprites\sprKnight_Down_Attack_2</sprite>
+        <sprite>sprites\sprKnight_Down_Attack_3</sprite>
+        <sprite>sprites\sprKnight_Down_Attack_4</sprite>
+        <sprite>sprites\sprKnight_Down_Attack_5</sprite>
+        <sprite>sprites\sprKnight_Up_Attack_1</sprite>
+        <sprite>sprites\sprKnight_Up_Attack_2</sprite>
+        <sprite>sprites\sprKnight_Up_Attack_3</sprite>
+        <sprite>sprites\sprKnight_Up_Attack_4</sprite>
+        <sprite>sprites\sprKnight_Up_Attack_5</sprite>
+      </sprites>
+    </sprites>
+    <sprite>sprites\sMob1_walk</sprite>
+    <sprite>sprites\sMob1_attack</sprite>
+    <sprite>sprites\sMob1_fly</sprite>
+    <sprite>sprites\sMob2_attack</sprite>
+    <sprite>sprites\sMob3_walk</sprite>
+    <sprite>sprites\sMob3_attack</sprite>
+    <sprite>sprites\sMob4_walk</sprite>
+    <sprite>sprites\sMob4_attack</sprite>
+    <sprite>sprites\sMob5_walk</sprite>
+    <sprite>sprites\sMob5_attack</sprite>
+    <sprite>sprites\sMob6_walk</sprite>
+    <sprite>sprites\sMob6_attack</sprite>
+    <sprites name="PickUpTiems">
+      <sprite>sprites\spr_ammo</sprite>
+      <sprite>sprites\spr_machineGun</sprite>
+      <sprite>sprites\spr_pearl</sprite>
+      <sprite>sprites\spr_handgun</sprite>
+      <sprite>sprites\spr_flashlight</sprite>
+      <sprite>sprites\spr_goldMask</sprite>
+      <sprite>sprites\spr_bracelet</sprite>
+      <sprite>sprites\spr_briefcase</sprite>
+      <sprite>sprites\spr_apple</sprite>
+      <sprite>sprites\spr_bow</sprite>
+      <sprite>sprites\spr_sword</sprite>
+      <sprite>sprites\spr_mug</sprite>
+      <sprite>sprites\spr_bomb</sprite>
+      <sprite>sprites\spr_dynamite</sprite>
+      <sprite>sprites\spr_axe</sprite>
+      <sprite>sprites\spr_lightningBall</sprite>
+      <sprite>sprites\spr_rose</sprite>
+      <sprite>sprites\spr_armor</sprite>
+      <sprite>sprites\spr_firstAid</sprite>
+      <sprite>sprites\spr_ring</sprite>
+      <sprite>sprites\spr_cog</sprite>
+      <sprite>sprites\spr_key</sprite>
+      <sprite>sprites\spr_sling</sprite>
+      <sprite>sprites\spr_cauldron</sprite>
+      <sprite>sprites\spr_torch</sprite>
+      <sprite>sprites\spr_lantern</sprite>
+      <sprite>sprites\spr_masterKey</sprite>
+      <sprite>sprites\spr_guitar</sprite>
+      <sprite>sprites\spr_mask</sprite>
+      <sprite>sprites\spr_magicBox</sprite>
+      <sprite>sprites\spr_testTube</sprite>
+      <sprite>sprites\spr_time</sprite>
+      <sprite>sprites\spr_skull</sprite>
+      <sprite>sprites\spr_water</sprite>
+      <sprite>sprites\spr_ninja</sprite>
+      <sprite>sprites\spr_flame</sprite>
+      <sprite>sprites\spr_shield</sprite>
+      <sprite>sprites\spr_book</sprite>
+      <sprite>sprites\spr_heartCell</sprite>
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_ankh</sprite>
+      <sprite>sprites\spr_gem</sprite>
+      <sprite>sprites\spr_boot</sprite>
+      <sprite>sprites\spr_chestClosed</sprite>
+      <sprite>sprites\spr_chestOpen</sprite>
+      <sprite>sprites\spr_bluePotion</sprite>
+      <sprite>sprites\spr_redPotion</sprite>
+      <sprite>sprites\spr_coin</sprite>
+      <sprite>sprites\spr_coinBag</sprite>
+      <sprite>sprites\spr_arrow</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\bg_dungeon1_64</background>
+    <background>background\bg_dungeon2_64</background>
+    <background>background\bg_dungeon3_64</background>
+    <background>background\bg_dungeon1_128</background>
+    <background>background\bg_dungeon2_128</background>
+    <background>background\bg_dungeon3_128</background>
+    <background>background\bg_shadows_64</background>
+    <background>background\bg_shadows_128</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\objPlayer</object>
+    <object>objects\wallCollision</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\start</room>

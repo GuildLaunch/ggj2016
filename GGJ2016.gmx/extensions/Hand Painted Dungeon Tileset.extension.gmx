@@ -3,7 +3,7 @@
   <name>Hand Painted Dungeon Tileset</name>
   <version>1.0.0</version>
   <packageID>com.danielthomas.DungeonTileset</packageID>
-  <ProductID>ACBD3CFF4E539AD869A0E8E3B4B022DD</ProductID>
+  <ProductID>0D3531773DBA48BE5AB8A429B71A3FB6</ProductID>
   <date>2015-10-26</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -19,6 +19,7 @@
   <maclinkerflags></maclinkerflags>
   <maccompilerflags></maccompilerflags>
   <androidinject></androidinject>
+  <gradleinject></gradleinject>
   <iosSystemFrameworks/>
   <iosThirdPartyFrameworks/>
   <androidPermissions/>
