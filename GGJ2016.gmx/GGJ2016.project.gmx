@@ -140,9 +140,22 @@
     <object>objects\objEnemy5</object>
     <object>objects\objEnemy6</object>
     <object>objects\objSpawn1</object>
+<<<<<<< HEAD
+    <object>objects\objSpawn2</object>
+    <object>objects\objSpawn3</object>
+    <object>objects\objBracelet</object>
+    <object>objects\objTorch</object>
+    <object>objects\objMask</object>
+    <object>objects\objRing</object>
+    <object>objects\objAnkh</object>
+    <object>objects\objRoom2Enemy1</object>
+    <object>objects\objRoom2Enemy2</object>
+    <object>objects\objRoom2Enemy3</object>
+=======
     <object>objects\objWeapon</object>
     <object>objects\startObject</object>
     <object>objects\uiObject</object>
+>>>>>>> e7fb4dca6f78ce91e66f36e27ad10b88db971212
   </objects>
   <rooms name="rooms">
     <room>rooms\welcome</room>
