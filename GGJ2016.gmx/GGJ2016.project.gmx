@@ -9,7 +9,14 @@
     <extension index="2">extensions\Weird but Fluffy Enemy Pack I</extension>
     <extension index="3">extensions\Pick Up Items</extension>
   </NewExtensions>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\screech</sound>
+    <sound>sound\punch1</sound>
+    <sound>sound\punch2</sound>
+    <sound>sound\skullcrack</sound>
+    <sound>sound\swordhit</sound>
+    <sound>sound\swordmiss</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\spr_fire_64</sprite>
