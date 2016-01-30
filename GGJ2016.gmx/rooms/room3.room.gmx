@@ -8,9 +8,9 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>0</colour>
+  <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>globalvar player_dmg = 0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -408,7 +408,6 @@
     <tile bgName="bg_dungeon2_64" x="1152" y="896" w="64" h="64" xo="128" yo="128" id="10001667" name="inst_BD4E04EC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1024" y="832" w="64" h="64" xo="0" yo="64" id="10001668" name="inst_F4035FDA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1088" y="832" w="64" h="64" xo="64" yo="64" id="10001669" name="inst_4B453FAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_dungeon2_64" x="1024" y="896" w="64" h="64" xo="0" yo="128" id="10001670" name="inst_EF5F8D9D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1088" y="896" w="64" h="64" xo="64" yo="128" id="10001671" name="inst_355CC174" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1664" y="1216" w="64" h="64" xo="128" yo="448" id="10001672" name="inst_43963C9A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="2112" y="1024" w="64" h="64" xo="384" yo="192" id="10001673" name="inst_59E5F061" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -419,6 +418,102 @@
     <tile bgName="bg_dungeon2_64" x="1088" y="1216" w="64" h="64" xo="64" yo="448" id="10001678" name="inst_5C281C56" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1024" y="1152" w="64" h="64" xo="0" yo="384" id="10001679" name="inst_4AECE85E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_dungeon2_64" x="1088" y="1152" w="64" h="64" xo="64" yo="384" id="10001680" name="inst_2C6A577D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1024" y="896" w="64" h="64" xo="0" yo="128" id="10001682" name="inst_A4875CCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1024" y="960" w="64" h="64" xo="192" yo="512" id="10001684" name="inst_7F96E50D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1024" y="1024" w="64" h="64" xo="192" yo="576" id="10001685" name="inst_A320D835" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1024" y="1088" w="64" h="64" xo="192" yo="640" id="10001686" name="inst_2F7000A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1088" y="1088" w="64" h="64" xo="256" yo="640" id="10001687" name="inst_5B1E02CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1088" y="960" w="64" h="64" xo="256" yo="512" id="10001688" name="inst_0C6D2A22" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="992" y="960" w="64" h="64" xo="384" yo="512" id="10001690" name="inst_EB0FBAFA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="992" y="1024" w="64" h="64" xo="384" yo="576" id="10001691" name="inst_8CEAC0B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="992" y="1088" w="64" h="64" xo="384" yo="640" id="10001692" name="inst_E0FE7B1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="928" y="1088" w="64" h="64" xo="320" yo="640" id="10001693" name="inst_FD37503B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="928" y="960" w="64" h="64" xo="320" yo="512" id="10001694" name="inst_7945FE1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="928" y="1024" w="64" h="64" xo="512" yo="640" id="10001696" name="inst_3DAAA131" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="1088" y="1024" w="64" h="64" xo="512" yo="832" id="10001697" name="inst_68DAAF15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="704" w="64" h="64" xo="384" yo="64" id="10001698" name="inst_45076915" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="768" w="64" h="64" xo="384" yo="128" id="10001699" name="inst_3CDD51C8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="832" w="64" h="64" xo="384" yo="192" id="10001700" name="inst_62116241" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="896" w="64" h="64" xo="384" yo="192" id="10001701" name="inst_8F5EFF37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="1344" w="64" h="64" xo="384" yo="448" id="10001702" name="inst_0C5D4028" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="1280" w="64" h="64" xo="384" yo="384" id="10001703" name="inst_6364F18B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="1152" w="64" h="64" xo="384" yo="320" id="10001704" name="inst_F0AA3AB2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="960" y="1216" w="64" h="64" xo="384" yo="320" id="10001705" name="inst_AB8D523F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="1344" w="64" h="64" xo="320" yo="448" id="10001706" name="inst_BBAADB10" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="1344" w="64" h="64" xo="320" yo="448" id="10001707" name="inst_1946E65B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="768" y="1344" w="64" h="64" xo="320" yo="448" id="10001708" name="inst_8A2C35D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="1344" w="64" h="64" xo="320" yo="448" id="10001709" name="inst_DD1649EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="640" y="1344" w="64" h="64" xo="320" yo="448" id="10001710" name="inst_23A5D3E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="1344" w="64" h="64" xo="320" yo="448" id="10001711" name="inst_CF6573E0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1344" w="64" h="64" xo="320" yo="448" id="10001712" name="inst_96425FBB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="704" w="64" h="64" xo="320" yo="64" id="10001713" name="inst_682118C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="704" w="64" h="64" xo="320" yo="64" id="10001714" name="inst_6A9D54AF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="768" y="704" w="64" h="64" xo="320" yo="64" id="10001715" name="inst_988CA271" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="704" w="64" h="64" xo="320" yo="64" id="10001716" name="inst_9A072769" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="640" y="704" w="64" h="64" xo="320" yo="64" id="10001717" name="inst_10651D01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="704" w="64" h="64" xo="320" yo="64" id="10001718" name="inst_0822B46D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="704" w="64" h="64" xo="320" yo="64" id="10001719" name="inst_30B2EDEB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="704" w="64" h="64" xo="0" yo="64" id="10001720" name="inst_EC431FDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="704" w="64" h="64" xo="64" yo="64" id="10001721" name="inst_49BBA40A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="768" w="64" h="64" xo="0" yo="128" id="10001722" name="inst_5A7CAE4B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="768" w="64" h="64" xo="64" yo="128" id="10001723" name="inst_88E44C16" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1344" w="64" h="64" xo="0" yo="448" id="10001724" name="inst_520D4602" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1344" w="64" h="64" xo="64" yo="448" id="10001725" name="inst_D0879A3E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1280" w="64" h="64" xo="0" yo="384" id="10001726" name="inst_6F90DCDA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1280" w="64" h="64" xo="64" yo="384" id="10001727" name="inst_52CB4737" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1216" w="64" h="64" xo="0" yo="320" id="10001728" name="inst_D2FE4656" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1152" w="64" h="64" xo="0" yo="320" id="10001729" name="inst_C05A4E7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1088" w="64" h="64" xo="0" yo="320" id="10001730" name="inst_A44EA109" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="1024" w="64" h="64" xo="0" yo="320" id="10001731" name="inst_9A9801E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="960" w="64" h="64" xo="0" yo="320" id="10001732" name="inst_2B354E2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="896" w="64" h="64" xo="0" yo="320" id="10001733" name="inst_BCE004E1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="384" y="832" w="64" h="64" xo="0" yo="320" id="10001734" name="inst_4C51126E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="832" w="64" h="64" xo="64" yo="192" id="10001735" name="inst_8F796C25" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="896" w="64" h="64" xo="64" yo="192" id="10001736" name="inst_E270ECA9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="960" w="64" h="64" xo="64" yo="192" id="10001737" name="inst_4628290E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1024" w="64" h="64" xo="64" yo="192" id="10001738" name="inst_A797275E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1088" w="64" h="64" xo="64" yo="192" id="10001739" name="inst_4ACC868A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1152" w="64" h="64" xo="64" yo="192" id="10001740" name="inst_8B82BC3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="448" y="1216" w="64" h="64" xo="64" yo="192" id="10001741" name="inst_6A1A37DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1280" w="64" h="64" xo="128" yo="384" id="10001742" name="inst_5D39152D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="1280" w="64" h="64" xo="128" yo="384" id="10001743" name="inst_262C9CB1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="640" y="1280" w="64" h="64" xo="128" yo="384" id="10001744" name="inst_301EDB06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="1280" w="64" h="64" xo="128" yo="384" id="10001745" name="inst_F4899EF4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="768" y="1280" w="64" h="64" xo="128" yo="384" id="10001746" name="inst_5B180DAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="1280" w="64" h="64" xo="128" yo="384" id="10001747" name="inst_CDA8D905" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="1280" w="64" h="64" xo="128" yo="384" id="10001748" name="inst_070B61E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="1152" w="64" h="64" xo="320" yo="320" id="10001749" name="inst_6B6FD598" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="1216" w="64" h="64" xo="320" yo="320" id="10001750" name="inst_B316EBC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="768" w="64" h="64" xo="320" yo="128" id="10001751" name="inst_FF94D80F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="832" w="64" h="64" xo="320" yo="192" id="10001752" name="inst_E7B54FD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="896" y="896" w="64" h="64" xo="320" yo="192" id="10001753" name="inst_B4F2845B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="768" w="64" h="64" xo="256" yo="128" id="10001754" name="inst_656A3D15" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="768" w="64" h="64" xo="256" yo="128" id="10001755" name="inst_2491A69C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="640" y="768" w="64" h="64" xo="256" yo="128" id="10001756" name="inst_70FAFA4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="768" w="64" h="64" xo="256" yo="128" id="10001757" name="inst_56D93460" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="768" y="768" w="64" h="64" xo="256" yo="128" id="10001758" name="inst_6823153F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="768" w="64" h="64" xo="256" yo="128" id="10001759" name="inst_76CB4B87" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="832" w="64" h="64" xo="0" yo="0" id="10001760" name="inst_86E425DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="896" w="64" h="64" xo="0" yo="0" id="10001761" name="inst_2254D185" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="960" w="64" h="64" xo="0" yo="0" id="10001762" name="inst_FB56A92F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="832" w="64" h="64" xo="0" yo="0" id="10001763" name="inst_B2D581B8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="768" y="832" w="64" h="64" xo="0" yo="0" id="10001764" name="inst_7F7BF51E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="896" w="64" h="64" xo="0" yo="0" id="10001765" name="inst_1C1495BC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1088" w="64" h="64" xo="0" yo="0" id="10001766" name="inst_DDFEE588" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1152" w="64" h="64" xo="0" yo="0" id="10001767" name="inst_4105E7DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="1152" w="64" h="64" xo="0" yo="0" id="10001768" name="inst_2B0AE3A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="864" y="1024" w="64" h="64" xo="0" yo="0" id="10001769" name="inst_BD3A2FA7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="864" y="1088" w="64" h="64" xo="0" yo="0" id="10001770" name="inst_151FD964" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="864" y="960" w="64" h="64" xo="0" yo="0" id="10001771" name="inst_178009A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="960" w="64" h="64" xo="0" yo="0" id="10001772" name="inst_65571C76" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="704" y="1088" w="64" h="64" xo="0" yo="0" id="10001773" name="inst_5BAD4EC0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="896" w="64" h="64" xo="64" yo="0" id="10001774" name="inst_1736A597" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="960" w="64" h="64" xo="64" yo="0" id="10001775" name="inst_4FA5C28E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1024" w="64" h="64" xo="64" yo="0" id="10001776" name="inst_31839486" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="512" y="1216" w="64" h="64" xo="64" yo="0" id="10001777" name="inst_8A2EBCC9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="576" y="1216" w="64" h="64" xo="64" yo="0" id="10001778" name="inst_D085264C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="832" w="64" h="64" xo="192" yo="0" id="10001779" name="inst_BAFB6F49" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_dungeon2_64" x="832" y="896" w="64" h="64" xo="192" yo="0" id="10001780" name="inst_1223C772" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

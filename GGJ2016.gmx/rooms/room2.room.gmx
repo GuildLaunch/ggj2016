@@ -93,9 +93,15 @@
     <instance objName="wallCollision" x="608" y="96" name="inst_839FB85F" locked="0" code="" scaleX="15" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="1088" y="96" name="inst_8A9A58C3" locked="0" code="" scaleX="1" scaleY="9" colour="4294967295" rotation="0"/>
     <instance objName="wallCollision" x="1120" y="384" name="inst_19374D35" locked="0" code="" scaleX="-10" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="objRoom2Enemy1" x="192" y="864" name="inst_98D12E62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoom2Enemy2" x="800" y="256" name="inst_3F5D99E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objRoom2Enemy3" x="480" y="2432" name="inst_5E04A1E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="&lt;undefined&gt;" x="192" y="864" name="inst_98D12E62" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="800" y="256" name="inst_3F5D99E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="480" y="2432" name="inst_5E04A1E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> e7fb4dca6f78ce91e66f36e27ad10b88db971212
   </instances>
   <tiles>
     <tile bgName="bg_dungeon1_64" x="0" y="0" w="64" h="64" xo="0" yo="64" id="10000513" name="inst_5A702BF1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
