@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health=1;
+            <string>mobHealth=1;
 sprite_index = sMob1_walk
 image_index = 0
 image_speed = 0.1
@@ -83,8 +83,9 @@ image_speed = 0.1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(health &lt;= 0){
+            <string>if(mobHealth &lt;= 0){
 instance_destroy();
+instance_create(x,y,objRing);
 }
 </string>
           </argument>
@@ -108,7 +109,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>health=health-1;
+            <string>mobHealth=mobHealth-1;
 
 </string>
           </argument>

@@ -135,6 +135,9 @@
   <objects name="objects">
     <object>objects\objPlayer</object>
     <object>objects\wallCollision</object>
+    <object>objects\objWeapon</object>
+    <object>objects\startObject</object>
+    <object>objects\uiObject</object>
     <object>objects\objEnemy1</object>
     <object>objects\objEnemy2</object>
     <object>objects\objEnemy3</object>
@@ -145,19 +148,22 @@
     <object>objects\objSpawn2</object>
     <object>objects\objSpawn3</object>
     <object>objects\objBracelet</object>
-    <object>objects\objTorch</object>
     <object>objects\objMask</object>
     <object>objects\objRing</object>
-    <object>objects\objAnkh</object>
     <object>objects\objRoom2Enemy1</object>
     <object>objects\objRoom2Enemy2</object>
     <object>objects\objRoom2Enemy3</object>
-    <object>objects\objWeapon</object>
-    <object>objects\startObject</object>
-    <object>objects\uiObject</object>
+    <object>objects\objApple</object>
+    <object>objects\objCog</object>
+    <object>objects\objRose</object>
     <object>objects\objRoom3Enemy1</object>
     <object>objects\objRoom3Enemy2</object>
     <object>objects\objRoom3Enemy3</object>
+    <object>objects\objMug</object>
+    <object>objects\objLightningBall</object>
+    <object>objects\objKey</object>
+    <object>objects\objTorch</object>
+    <object>objects\objAnkh</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\welcome</room>
